@@ -48,6 +48,13 @@ h1 {
 
 /* Header */
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
 header ul {
   padding: 10px;
 }
