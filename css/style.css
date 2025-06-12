@@ -70,6 +70,7 @@ ul {
 
 /* Utility */
 
+
 .gap-20 {
   gap: 20px;
 }
@@ -198,6 +199,9 @@ h4 {
 }
 
 /* Background color */
+.bg-black {
+  background-color: black;
+}
 
 .bg-yellow {
   background-color: yellow;
