@@ -8,6 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container-big {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 
 /* Header */
 
@@ -23,6 +28,14 @@ li {
 
 /* Utility */
 
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
 .row {
   display: flex;
 }
@@ -35,10 +48,22 @@ li {
   justify-content: space-between;
 }
 
+.h-400 {
+  height: 400px;
+}
+
 /* Background color */
+
+.bg-black {
+  background-color: black;
+}
 
 .bg-blue {
   background-color: #0061fe;
+}
+
+.bg-heavenly {
+  background-color: #b4d0e6;
 }
 
 /* Color */
