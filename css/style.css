@@ -55,14 +55,15 @@ header {
   background-color: #fff;
 }
 
-.row>a {
+#menu a {
   padding: 0 10px;
   line-height: 25px;
   text-decoration: none;
 }
 
-/* Utility */
 
+
+/* Utility */
 
 .line-h-20 {
   line-height: 20px;
@@ -256,4 +257,29 @@ h4 {
 
 .border-grey:first-child {
   border-bottom: transparent;
+}
+
+.button:hover {
+  background-color: #2f61ac;
+  cursor: pointer;
+}
+
+a:hover {
+  color: red;
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
