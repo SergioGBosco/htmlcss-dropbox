@@ -68,6 +68,12 @@ header {
   line-height: 20px;
 }
 
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 .gap-10 {
   gap: 10px;
 }
@@ -78,11 +84,6 @@ header {
 
 .gap-30 {
   gap: 30px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
 }
 
 .center {
@@ -153,11 +154,6 @@ header {
 .space-between {
   justify-content: space-between;
 }
-
-.mb--70px {
-  margin-bottom: -70px;
-}
-
 
 .my-20 {
   margin: 20px 0;
@@ -258,10 +254,6 @@ h4 {
   border-bottom: 1px solid grey;
 }
 
-.col-30>.border-grey {
-  border-bottom: transparent;
-}
-
-.col-100>.border-grey {
+.border-grey:first-child {
   border-bottom: transparent;
 }
